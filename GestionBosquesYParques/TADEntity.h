@@ -4,6 +4,7 @@
 #include "SysColumn.h"
 #include "sysPK.h"
 #include "sysFK.h"
+#include "SysTable.h"
 
 using namespace std;
 
@@ -15,6 +16,7 @@ private:
 	vector<sysFK> fk;
 	vector<string> Data;
 public:
+	TADEntity();
 	TADEntity(string pTabla);
 	~TADEntity();
 	 
@@ -22,6 +24,6 @@ public:
 
 	void Alta(vector<string> p);
 	void Baja(string PKValue);
-	void Alta(string PKCriterio);
+	void Search(string PKCriterio);
 };
 

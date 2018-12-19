@@ -160,6 +160,7 @@
     <ClInclude Include="SysColumn.h" />
     <ClInclude Include="sysFK.h" />
     <ClInclude Include="sysPK.h" />
+    <ClInclude Include="SysTable.h" />
     <ClInclude Include="TADEntity.h" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +179,7 @@
     <ClCompile Include="SysColumn.cpp" />
     <ClCompile Include="sysFK.cpp" />
     <ClCompile Include="sysPK.cpp" />
+    <ClCompile Include="SysTable.cpp" />
     <ClCompile Include="TADEntity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

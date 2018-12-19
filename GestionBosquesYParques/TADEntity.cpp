@@ -10,3 +10,7 @@ TADEntity::TADEntity()
 TADEntity::~TADEntity()
 {
 }
+
+void TADEntity::Alta(vector<string> p) {
+	
+}
